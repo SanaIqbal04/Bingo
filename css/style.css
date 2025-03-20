@@ -5,11 +5,11 @@ body {
         margin: 0;
         font-family: Arial, sans-serif;
         text-align: center;
-        background-image: url(classic-vintage-rays-sunburst-retro-background_1017-33769.png);
+        background-image: url(image_3.png);
         background-repeat: no-repeat;
         background-size: auto;
         background-size: cover;
-        background-size: 1920px 100px 400px;
+        /* background-size: 1920px 100px 400px; */
 
 }
 
@@ -20,13 +20,12 @@ body {
         display: grid;
         grid-template-columns: repeat(5, 50px);
         gap: 5px;
-        display: flexbox;
         justify-content: center;
         align-items: center;
         top: 50%;
         left: 50%;
         transform: transltate(-50%, -50%);
-        margin-top: 25%;
+        margin-top: 19%;
 }
 
 .bingo-cel {
@@ -45,18 +44,19 @@ body {
 }
 
 
-/* body {
-        text-align: center;
-        font-family: Arial, sans-serif;
-} */
-
 
 button {
         margin-top: 50px;
+        padding: 0.5em;
+        padding-left: 1em;
+        padding-right: 1em;
+        background-color: brown;
+        color: aliceblue;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 p {
-        color: aliceblue;
+        color: rgb(0, 0, 0);
 }
 
 
@@ -65,7 +65,7 @@ p {
         color: aliceblue;
         position: absolute;
         top: 25px;
-        left: 1750px;
+        right: 40px;
         font-size: 17px;
         background-color: rgba(241, 241, 241, 0.792);
         padding: 5px;
@@ -79,6 +79,5 @@ img {
         top: 10px;
         left: 40px;
         margin-top: 30px;
-        /* width: 10%;
-        height: 20%; */
 }
+
