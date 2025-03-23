@@ -39,6 +39,7 @@ function startTimer() {
         // Stop timer en toon een melding
         if (resterendeTijd <= 0) {
             clearInterval(timer);
+            // https://www.w3schools.com/jsref/met_win_alert.asp
             alert(`Tijd is om! Je hebt ${gemarkeerdeVakjes} vakjes gemarkeerd.`);
         }
     }, 1000); // Elke seconde updaten
