@@ -1,20 +1,28 @@
 body {
         height: 100%;
+        /* height: 100vh; */
         justify-content: center;
         align-items: center;
         margin: 0;
         font-family: Arial, sans-serif;
         text-align: center;
-        background-image: url(image_3.png);
+        background-image: url(bg_image.png);  /* img bron: https://www.vectorstock.com/royalty-free-vector/collection-game-background-with-purple-sky-vector-14979509 */
         background-repeat: no-repeat;
-        background-size: auto;
         background-size: cover;
-        /* background-size: 1920px 100px 400px; */
-
 }
 
+#getrokkenNummerP {
+        position: absolute;
+        text-align: center;
+        left: 30%;
+        right: 30%;
+        top: 20%;
+        font-size: 25px;
+        color: antiquewhite;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: 500;
 
-
+}
 
 #kaart {
         display: grid;
@@ -25,10 +33,10 @@ body {
         top: 50%;
         left: 50%;
         transform: transltate(-50%, -50%);
-        margin-top: 19%;
+        margin-top: 17%;
 }
 
-.bingo-cel {
+.vakje {
         width: 50px;
         height: 50px;
         border: 1px solid black;
@@ -39,19 +47,19 @@ body {
         background-color: antiquewhite;
 }
 
-.marked {
-        background-color: lightgreen;
-}
-
 
 
 button {
         margin-top: 50px;
+        margin-bottom: 100px;
         padding: 0.5em;
         padding-left: 1em;
         padding-right: 1em;
         background-color: brown;
-        color: aliceblue;
+        border-radius: 5px;
+        border: none;
+        padding: 10px;
+        color: antiquewhite;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -64,12 +72,13 @@ p {
         text-align: left;
         color: aliceblue;
         position: absolute;
-        top: 25px;
+        top: 30px;
         right: 40px;
-        font-size: 17px;
-        background-color: rgba(241, 241, 241, 0.792);
-        padding: 5px;
-        border-radius: 5px;
+        font-size: 14px;
+        background-color: brown;
+        padding: 15px 20px 0px 20px;
+        height: 30px;
+        border-radius: 100px;
 
 }
 
@@ -80,4 +89,3 @@ img {
         left: 40px;
         margin-top: 30px;
 }
-
